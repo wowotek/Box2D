@@ -74,6 +74,7 @@
 
 TestEntry g_testEntries[] =
 {
+	{ "Dump Shell", DumpShell::Create },
 	{"Shape Cast", ShapeCast::Create },
 	{"Time of Impact", TimeOfImpact::Create},
 	{"Character Collision", CharacterCollision::Create},
@@ -87,7 +88,6 @@ TestEntry g_testEntries[] =
 	{"Convex Hull", ConvexHull::Create},
 	{"Tumbler", Tumbler::Create},
 	{"Ray-Cast", RayCast::Create},
-	{"Dump Shell", DumpShell::Create},
 	{"Apply Force", ApplyForce::Create},
 	{"Continuous Test", ContinuousTest::Create},
 	{"Motor Joint", MotorJoint::Create},

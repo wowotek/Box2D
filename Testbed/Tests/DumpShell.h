@@ -26,6 +26,9 @@ public:
 
 	DumpShell()
 	{
+#if 1
+#include "../Data/b2Dump02.txt"
+#else
 		//Source code dump of Box2D scene: issue304-minimal-case.rube
 		//
 		//  Created by R.U.B.E 1.3.0
@@ -163,7 +166,7 @@ public:
 		b2Free(bodies);
 		joints = NULL;
 		bodies = NULL;
-
+#endif
 	}
 
 	static Test* Create()
