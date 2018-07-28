@@ -382,6 +382,12 @@ void Test::Step(Settings* settings)
 		m_textLine += DRAW_STRING_NEW_LINE;
 	}
 
+	if (settings->drawCameraPosition)
+	{
+		g_debugDraw.DrawString(5, m_textLine, "camera: (%5.2f, %6.2f)", g_camera.m_center.x, g_camera.m_center.y);
+		m_textLine += DRAW_STRING_NEW_LINE;
+	}
+
 	if (m_bombSpawning)
 	{
 		b2Color c;

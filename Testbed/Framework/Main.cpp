@@ -406,6 +406,7 @@ static void sInterface()
 		ImGui::Checkbox("Center of Masses", &settings.drawCOMs);
 		ImGui::Checkbox("Statistics", &settings.drawStats);
 		ImGui::Checkbox("Profile", &settings.drawProfile);
+		ImGui::Checkbox("Camera Position", &settings.drawCameraPosition);
 
 		ImVec2 button_sz = ImVec2(-1, 0);
 		if (ImGui::Button("Pause (P)", button_sz))

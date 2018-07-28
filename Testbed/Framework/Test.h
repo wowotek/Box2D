@@ -76,6 +76,7 @@ struct Settings
 		drawCOMs = false;
 		drawStats = false;
 		drawProfile = false;
+		drawCameraPosition = false;
 		enableWarmStarting = true;
 		enableContinuous = true;
 		enableSubStepping = false;
@@ -97,6 +98,7 @@ struct Settings
 	bool drawCOMs;
 	bool drawStats;
 	bool drawProfile;
+	bool drawCameraPosition;
 	bool enableWarmStarting;
 	bool enableContinuous;
 	bool enableSubStepping;
